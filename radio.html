@@ -1,0 +1,157 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+  <title>Radio & Chat</title>
+  <link rel="icon" href="favicon.ico"><!-- 32?32 -->
+  <meta name="description" content="website description" />
+  <meta name="keywords" content="website keywords, website keywords" />
+  <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+  <link rel="stylesheet" type="text/css" href="css/style.css" />
+  <!-- modernizr enables HTML5 elements and feature detects -->
+  <script type="text/javascript" src="js/modernizr-1.5.min.js"></script>
+</head>
+    
+<body>
+  <div id="main">
+    <header>
+      <div id="logo"><h1>MY<a href="radio.html">COZY</a>CORNER</h1></div>
+      <nav>
+        <ul class="lavaLampWithImage" id="lava_menu">
+          <li><a href="index.html">Home</a></li>
+          <li class="current"><a href="radio.html">Radio</a></li>
+          <li><a href="portfolio.html">MyPortfolio</a></li>
+          <li><a href="blog.html">Blog</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+    <div id="site_content">
+      <div id="sidebar_container">
+
+
+      <div id="content">
+        <h1 style="color:#eeeeee">.
+.............................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................
+</h1>
+<div class="app">
+
+
+    
+</div>
+</div>
+
+      <div id="content">
+        <h1>.</h1>
+            <div id="app">
+        <!-- Webamp will attempt to center itself within this div -->
+    </div>
+    <script src="https://unpkg.com/webamp@1.4.2/built/webamp.bundle.min.js"></script>
+    <script>
+        const Webamp = window.Webamp;
+        const webamp = new Webamp({
+            initialTracks: [
+                {
+                    metaData: {
+                        artist: "DJ Mike Llama",
+                        title: "Llama Whippin' Intro"
+                    },
+                    // NOTE: Your audio file must be served from the same domain as your HTML
+                    // file, or served with permissive CORS HTTP headers:
+                    // https://developer.mozilla.org/en-US/docs/Web/HTTP/CORS
+                    url: "https://cdn.jsdelivr.net/gh/captbaritone/webamp@43434d82cfe0e37286dbbe0666072dc3190a83bc/mp3/llama-2.91.mp3",
+                    duration: 5.322286
+                },
+                {
+                    metaData: {
+                        artist: "RadioOnline",
+                        title: "EuropaPlussNew"
+                    },
+                    url: "http://emg02.hostingradio.ru/ep-new128.mp3",
+                    duration: 0.0
+                },
+                {
+                    metaData: {
+                        artist: "RadioOnline",
+                        title: "zaycev.fm (relax)"
+                    },
+                    url: "http://zaycevfm.cdnvideo.ru/ZaycevFM_relax_256.mp3",
+                    duration: 0.0
+                },
+                {
+                    metaData: {
+                        artist: "RadioOnline",
+                        title: "zaycev.fm (rock)"
+                    },
+                    url: "http://zaycevfm.cdnvideo.ru/ZaycevFM_alternative_256.mp3",
+                    duration: 0.0
+                },
+                {
+                    metaData: {
+                        artist: "RadioOnline",
+                        title: "zaycev.fm (rap)"
+                    },
+                    url: "http://zaycevfm.cdnvideo.ru/ZaycevFM_rap_256.mp3",
+                    duration: 0.0
+                },
+                {
+                    metaData: {
+                        artist: "RadioOnline",
+                        title: "zaycev.fm (club)"
+                    },
+                    url: "http://zaycevfm.cdnvideo.ru/ZaycevFM_electronic_256.mp3",
+                    duration: 0.0
+                },
+                {
+                    metaData: {
+                        artist: "RadioOnline",
+                        title: "Trance"
+                    },
+                    url: "http://strm112.1.fm/trance_mobile_mp3",
+                    duration: 0.0
+                }
+            ],
+        });
+
+        // Returns a promise indicating when it's done loading.
+        webamp.renderWhenReady(document.getElementById('app'));
+    </script>
+
+      </div>
+      </div>
+<h1>Online radio in the Winamp player.</h1>
+
+<p>In this player you can listen to radio stations that already exist and also open your music from a PC or smartphone. Enjoy listening. I will add more stations over time (maybe)</p>
+
+<h2>IRC Chat</h2>
+
+<p>I also added an irc chat to this page so that you won't be bored, you can talk while listening to music. But I did not create my own channel in irc, you can connect to any existing one, they are not difficult to find on the Internet.</p>
+
+<h2>P.S.</h2>
+
+<p>Be kind to each other and to yourself.</p>
+
+    </div>
+
+<iframe src="https://webchat.freenode.net/?nick=kiwi?#dogecoin" style="border:0; width:100%; height:550px;"></iframe>
+
+    <footer>
+      <p><a href="index.html">Home</a> | <a href="radio.html">Radio</a> | <a href="portfolio.html">MyPortfolio</a> | <a href="blog.html">Blog</a> | <a href="contact.html">Contact</a></p>
+      <p>&copy; 2022 | <a href="https://twitter.com/arturandreevi4">@arturandreevich</a></p>
+    </footer>
+  </div>
+  <!-- javascript at the bottom for fast page loading -->
+  <script type="text/javascript" src="js/jquery.min.js"></script>
+  <script type="text/javascript" src="js/jquery.easing.min.js"></script>
+  <script type="text/javascript" src="js/jquery.lavalamp.min.js"></script>
+  <script type="text/javascript" src="js/image_fade.js"></script>
+  <script type="text/javascript">
+    $(function() {
+      $("#lava_menu").lavaLamp({
+        fx: "backout",
+        speed: 700
+      });
+    });
+  </script>
+</body>
+</html>

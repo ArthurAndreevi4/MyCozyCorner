@@ -1,0 +1,71 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+  <title>Homepage of Arthur Andreevich</title>
+  <link rel="icon" href="favicon.ico"><!-- 32?32 -->
+  <meta name="description" content="website description" />
+  <meta name="keywords" content="website keywords, website keywords" />
+  <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+  <link rel="stylesheet" type="text/css" href="css/style.css" />
+  <!-- modernizr enables HTML5 elements and feature detects -->
+  <script type="text/javascript" src="js/modernizr-1.5.min.js"></script>
+</head>
+
+<body>
+  <div id="main">
+    <header>
+      <div id="logo"><h1>MY<a href="radio.html">COZY</a>CORNER</h1></div>
+      <nav>
+        <ul class="lavaLampWithImage" id="lava_menu">
+          <li class="current"><a href="index.html">Home</a></li>
+          <li><a href="radio.html">Radio</a></li>
+          <li><a href="portfolio.html">MyPortfolio</a></li>
+          <li><a href="blog.html">Blog</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+    <div id="site_content">
+      <div id="sidebar_container">
+        <div class="gallery">
+          <ul class="images">
+            <li class="show"><img width="450" height="450" src="images/4.jpg" alt="photo_one" /></li>
+            <li><img width="450" height="450" src="images/5.jpg" alt="photo_two" /></li>
+            <li><img width="450" height="450" src="images/6.jpg" alt="photo_three" /></li>
+            <li><img width="450" height="450" src="images/7.jpg" alt="photo_four" /></li>
+            <li><img width="450" height="450" src="images/8.jpg" alt="photo_five" /></li>
+            <li><img width="450" height="450" src="images/9.jpg" alt="photo_five" /></li>
+            <li><img width="450" height="450" src="images/10.jpg" alt="photo_five" /></li>
+          </ul>
+        </div>
+      </div>
+      <div id="content">
+        <h1>Welcome to My First Website</h1>
+        <p>I welcome you, my dear, mysterious visitor to my page. Here you will find information about who I am and what I do in life, and here you can listen to music & chat in the appropriate section. And if you still have questions, you can ask them to me in the contacts section.</p>
+        <h2>The purpose of creation:</h2>
+        <p>Everything is quite simple. Taking into account the trends of updates of everything that is possible, I don't like the innovations that are being introduced to websites and applications (but not all, there are also good ones), and I decided to just create a spare airfield with music and chat. And all this in a minimalist style and simple design. As far as it turned out, think for yourself.</p>
+        <h2>P.S.</h2>
+        <p>Yes, I could create it in html5. And even started to do it, but the cosiness of the old and good internet was lost, I didn't like how it looks and works and had to take a step back in order to do it the way I wanted.</p>
+      </div>
+    </div>
+    <footer>
+      <p><a href="index.html">Home</a> | <a href="radio.html">Radio</a> | <a href="portfolio.html">MyPortfolio</a> | <a href="blog.html">Blog</a> | <a href="contact.html">Contact</a></p>
+      <p>&copy; 2022 | <a href="https://twitter.com/arturandreevi4">@arturandreevich</a></p>
+    </footer>
+  </div>
+  <!-- javascript at the bottom for fast page loading -->
+  <script type="text/javascript" src="js/jquery.min.js"></script>
+  <script type="text/javascript" src="js/jquery.easing.min.js"></script>
+  <script type="text/javascript" src="js/jquery.lavalamp.min.js"></script>
+  <script type="text/javascript" src="js/image_fade.js"></script>
+  <script type="text/javascript">
+    $(function() {
+      $("#lava_menu").lavaLamp({
+        fx: "backout",
+        speed: 700
+      });
+    });
+  </script>
+</body>
+</html>

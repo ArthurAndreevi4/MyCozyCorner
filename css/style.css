@@ -168,6 +168,13 @@ nav {
   height: 450px;
 }
 
+#app { 
+  float: left;
+  width: 450px;
+  padding: 0;
+  height: 450px;
+}
+
 #content { 
   text-align: justify;
   width: 444px;

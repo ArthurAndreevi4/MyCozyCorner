@@ -1,7 +1,7 @@
 ﻿var shat1=new Image(18, 33);
 var shat2=new Image(18, 33);
-shat1.src="images/h3.gif";
-shat2.src="images/h4.gif";
+shat1.src="images/s1.gif";
+shat2.src="images/s2.gif";
 document.write("<div id='shaiten'><img alt='Shaytanich' width='18' height='33' border='0'/></div>");
 document.getElementById('shaiten').style.position='absolute';
 var sHeight2=screen.height;

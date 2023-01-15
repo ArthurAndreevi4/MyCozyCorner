@@ -1,7 +1,7 @@
 ﻿var hott1=new Image(18, 33);
 var hott2=new Image(18, 33);
-hott1.src="images/h1.gif";
-hott2.src="images/h2.gif";
+hott1.src="images/h3.gif";
+hott2.src="images/h4.gif";
 document.write("<div id='hottab'><img alt='Hottab' width='18' height='33' border='0'/></div>");
 document.getElementById('hottab').style.position='absolute';
 var sHeight=screen.height;
